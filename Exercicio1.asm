@@ -1,8 +1,10 @@
+#ALUNO : CARLOS EDUARDO MEDEIROS DA SILVA		MATRICULA : 20220010155
+
 .data
 	array: .align 2
 		.space 40       # 40 bytes de espaço alocado para armazenar o vetor (10 inteiros)
 	
-	msg: .asciiz "Elementos do vetor: "    # Mensagem para indicar os elementos do vetor
+	msg: .asciiz "Elementos do vetor Ordenado: "    # Mensagem para indicar os elementos do vetor
 	space: .asciiz " "                     # Espaço em branco entre os elementos
 	MAX: .word 10	                       # Define o tamanho máximo do vetor
 
